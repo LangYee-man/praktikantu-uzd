@@ -6,7 +6,7 @@
 #
 # If you want to edit your mkdocs.yml, do so after shutting down the server.
 ################################################################################
-site_name: My Docs
+site_name: Praktikos užduotys
 plugins:
   - search
   - techdocs-core:

@@ -1,6 +1,10 @@
+---
+weight: 500
+---
 # Users, groups and permissions
 
-## Users 
+## Users
+
 Create a new user with a home directory. Assign a password to the user. Make this user use the /bin/sh shell.
 Create a new temporary user that will expire next month. Create a temporary password for his user. This user will need to change his password on next login. Don't create a user group for this user.
 Create a third user, "unrelated". Assign a password to the user.
@@ -24,6 +28,5 @@ Create a simple bash script that prints "hello world" in both directories.
 Try create a file and a directory as each user in both of the directories. Try listing the files in these directories as each user.
 
 ## Groups
-
 
 ## Permissions

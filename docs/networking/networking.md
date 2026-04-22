@@ -1,6 +1,5 @@
 ---
-title: Bare metal
+title: Networking
 retitled: true
 empty: true
-weight: 100
 ---
