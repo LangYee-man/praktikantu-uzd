@@ -1,0 +1,6 @@
+nav:
+  - Essentials:
+    - essentials/firewall.md
+  - Bare metal:
+  - Networking:
+  - Cherry services:

@@ -12,6 +12,7 @@ plugins:
   - techdocs-core:
       use_material_search: true
       use_pymdownx_blocks: true
+  - awesome-nav
 theme:
   name: material
   palette:
@@ -25,13 +26,3 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-hooks:
-  - /tmp/mkdocs-wysiwyg-1PLjcA/restore_theme.py
-markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: "!!python/name:pymdownx.superfences.fence_code_format"
