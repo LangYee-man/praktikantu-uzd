@@ -1,5 +1,17 @@
 nav:
   - Essentials:
-    - essentials/ssh_access.md
-    - essentials/firewall.md
-    - essentials/permissions.md
+    - SSH access: essentials/ssh_access.md
+    - Firewall: essentials/firewall.md
+    - Bash: essentials/scripting.md
+    - Partitioning: essentials/partitions.md
+  - Networking:
+    - Floating IP: networking/floating.md
+    - Subnet: networking/subnet.md
+    - Bond: networking/bond.md
+  - Bare metal:
+    - Console: baremetal/console.md
+    - Server health: essentials/health_monitoring
+  - Cherry services:
+    - Backup storage: cherry-services/backupstorage.md
+    - Elastic Block Storage: cherry-services/ebs.md
+    - Load balancer: cherry-services/lb.md
