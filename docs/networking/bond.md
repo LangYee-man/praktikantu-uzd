@@ -3,4 +3,4 @@
 
 - Boot into Rescue mode/ system resuce cd
 - Delete the bond interface if it already exists
-- Set up the bond interfac
+- Set up the bond interface and configure it to use the main IP.

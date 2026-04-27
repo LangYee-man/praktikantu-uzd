@@ -4,6 +4,7 @@ nav:
     - Firewall: essentials/firewall.md
     - Bash: essentials/scripting.md
     - Partitioning: essentials/partitions.md
+    - Raid: essentials/raid.md
   - Networking:
     - Floating IP: networking/floating.md
     - Subnet: networking/subnet.md
@@ -11,11 +12,13 @@ nav:
   - Bare metal:
     - Console: baremetal/console.md
     - Server health:
-      - Disk health: essentials/health_monitoring/disk.md
-      - Disk health: essentials/health_monitoring/sensors.md
-      - Disk health: essentials/health_monitoring/disk
-
+      - Disk health: essentials/health_monitoring/diskhealth.md
+    - Additional OS:
+      - Windows server: baremetal/windows.md
+      - Proxmox: baremetal/proxmox.md
   - Cherry services:
     - Backup storage: cherry-services/backupstorage.md
     - Elastic Block Storage: cherry-services/ebs.md
     - Load balancer: cherry-services/lb.md
+  - Complex tasks:
+    - Task 1: complex/igno.md
