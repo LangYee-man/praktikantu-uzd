@@ -13,6 +13,6 @@ nav:
     - Server health: essentials/health_monitoring
   - Cherry services:
     - Backup storage: cherry-services/backupstorage.md
-    - Elastic Block Storage: cherryservers/ebs.md
-    - Load balancer: cherryservers/lb.md
+    - Elastic Block Storage: cherry-services/ebs.md
+    - Load balancer: cherry-services/lb.md
 
