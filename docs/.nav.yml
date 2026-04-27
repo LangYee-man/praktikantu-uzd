@@ -12,7 +12,7 @@ nav:
   - Bare metal:
     - Console: baremetal/console.md
     - Server health:
-      - Disk health: essentials/health_monitoring/diskhealth.md
+      - Disk health: essentials/health-monitoring/diskhealth.md
     - Additional OS:
       - Windows server: baremetal/windows.md
       - Proxmox: baremetal/proxmox.md
