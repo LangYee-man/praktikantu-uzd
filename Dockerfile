@@ -4,6 +4,7 @@ RUN pip install mkdocs-awesome-nav
 #RUN pip install mkdocs-whatever <- new mkdocslibraries go here
 COPY . /docs
 WORKDIR /docs
+# Build the static web page
 RUN mkdocs build
 
 # Spins up a new nginx container
