@@ -1,13 +1,13 @@
-# Task 1
-1. Išvalyti diskus, suformuoti 500GB partiticiją ant RAID1 OS ir įrašyti Ubuntu 24.04.
-2. Po įrašymo, patikrinti ar yra įkelti SSH raktai kokie ir sugeneruoti SSH raktą serveriui
-3. Sužinoti kaip gyvai matyti veikiančius procesus ir kiek resursų yra dabar naudojama (abiem dalykam yra vienas dalykas ar komanda)
-4. Patikrinti kiek dar yra nesuformatuotos vietos ir iš jos sukurti RAID1 masyvą, užmountintą ant /mnt
-5. Sutvarkyti kad naujai sukurtas RAID1 išliktų prijungtas prie /mnt po serverio perkrovimo
-6. Įrašyti cmatrix paketą
-7. Patikrinti ar serveryje yra surinktas bond interface, koks jo IP adresas
-8. Patikrinti ar serveryje sukonfiguruotas private VLAN, koks jo interface ir IP adresas
-9. Patikrinti RAID masyvų būklę, ar jie synchronizuoti
-10. Patikrinti terminalo komandų istoriją (kokios komandos buvo įvestos ankščiau)
-11. Sukurti failą pavadinimu "tavomama.sh" /home/scripts foldery, į failą įklijuoti scriptą iš https://storage.zupis.site/scripts/simple.sh, padayti jį kaip executable
-12. Įrašyti į serverį apache, kad į naršyklę įvedus serverio IP rodytų ne standartinį puslapį, o paimtą iš kito serverio. HTML failą reikia parsisiūsti iš https://storage.zupis.site/html/task12.html ir išsaugoti kaip index.html (parsiuntimą galima padaryti iš serverio vidaus, yra įrankiai tokiam dalykui)
+# Linux management tasks
+1. On current server, initiate rebuild by selecting Ubuntu 24.04 with 100GB OS partition on RAID1
+2. Check existing SSH public keys inside server and generate a new one for server
+3. Which commands are used to review active server processes and resource usage
+4. Check left space on disks, create new RAID1 array from that space, mount it on /mnt and make it persistent
+5. Install cmatrix package. review how to seach for package
+6. Check if bond interface exists on server, what is interface IP and its masters (physical interfaces)?
+7. Does the server have VLAN, what its IP address and VLAN IP? Is VLAN IP is public or private?
+8. Where validate RAID array status, what disks does it have?
+9. How to see command history, how to clear it?
+10. Create new file "tavomama.sh, which contents should be copied from https://ftpi.dividiv.site/scripts/simple.sh. Make created script executable
+11. Install apache web server papckage. The final result should be when entering your server IP address to web browser, it should open page, copied from https://ftpi.dividiv.site/html/task12.html.
+12. What command is used to copy files from one directory to other
